@@ -1,17 +1,20 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "socket.io": "^3.1.2",
-    "uuid": "^8.3.2",
-    "ws": "^7.4.1"
-  }
+ "name": "server",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "start": "node ."
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "socket.io": "^3.1.2",
+  "uuid": "^8.3.2",
+  "ws": "^7.4.1"
+ },
+ "engines": {
+  "node": "14.17.3"
+ }
 }
